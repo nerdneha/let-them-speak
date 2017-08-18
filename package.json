@@ -2,12 +2,23 @@
   "name": "let-them-speak",
   "private": true,
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "start": "webpack-dev-server --open"
   },
   "devDependencies": {
     "ava": "^0.21.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
     "selenium-adapter": "^0.2.6",
-    "standard-esnext": "^3.0.1"
+    "standard-esnext": "^3.0.1",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
   },
-  "standard-engine": "standard-esnext"
+  "standard-engine": "standard-esnext",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
 }
